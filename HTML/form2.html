@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form 2</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <input type="checkbox" name="check" id="check" checked />
+        <label for="check">I am 18+</label>
+      </div>
+      <div>
+        <input type="radio" name="radio" id="apple" value="apple" />
+        <label for="apple">apple</label>
+        <input type="radio" name="radio" id="mango" valuse="mango" />
+        <lable for="mango">mango</lable>
+        <input type="radio" name="radio" id="banana" valuse="banana" />
+        <lable for="banana">banana</lable>
+      </div>
+    </form>
+    <br />
+    <form action="action">
+      <div>
+        Choose your subject:
+        <input type="checkbox" name="subject" id="math" value="math" />
+        <lable id="math">math</lable>
+        <input type="checkbox" name="subject" id="science" value="science" />
+        <label id="science">science</label>
+        <input type="checkbox" name="subject" id="english" value="eng" />
+        <lable id="english">english</lable>
+      </div>
+      <div>
+        Choose your profession
+        <select name="profession" id="profession">
+          <option selected>select your option</option>
+          <option value="student">student</option>
+          <option value="devloper">devloper</option>
+        </select>
+      </div>
+      <div>
+        <lable for="volume"> Volume</lable>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          name="vol"
+          id="volume"
+          step="10"
+          value="70"
+        />
+      </div>
+      <label for="feedback">Enter you feedback : </label>
+      <textarea
+        id="feedback"
+        name="feed"
+        placeholder="your feedback"
+        rows="3"
+        cols="25"
+      ></textarea>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
